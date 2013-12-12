@@ -1,11 +1,11 @@
 namespace Controle.Ponto.Library.Modelo.Migrations
 {
-    using Controle.Ponto.Library.Modelo.Entidades;
     using System;
     using System.Collections.Generic;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
+    using Controle.Ponto.Library.Modelo.Entidades;
 
     internal sealed class Configuration : DbMigrationsConfiguration<Controle.Ponto.Library.Modelo.Contexto.PontoContext>
     {

@@ -1,10 +1,10 @@
-﻿using Controle.Ponto.Library.Modelo.Entidades;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Controle.Ponto.Library.Modelo.Entidades;
 
 namespace Controle.Ponto.Library.Modelo.Contexto
 {
