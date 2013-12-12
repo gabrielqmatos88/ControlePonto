@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Controle.Ponto.Library.Entidades
+namespace Controle.Ponto.Library.Modelo.Entidades
 {
     [Table("Usuario")]
     public class Usuario : Entidade

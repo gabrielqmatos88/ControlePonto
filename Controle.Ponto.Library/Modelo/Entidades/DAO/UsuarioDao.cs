@@ -1,4 +1,4 @@
-﻿using Controle.Ponto.Library.Contexto;
+﻿using Controle.Ponto.Library.Modelo.Contexto;
 using System;
 using System.Collections.Generic;
 using System.Data;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Controle.Ponto.Library.Entidades.DAO
+namespace Controle.Ponto.Library.Modelo.Entidades.DAO
 {
     public static class UsuarioDao
     {

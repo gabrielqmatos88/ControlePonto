@@ -1,4 +1,4 @@
-namespace Controle.Ponto.Library.Migrations
+namespace Controle.Ponto.Library.Modelo.Migrations
 {
     using System;
     using System.Data.Entity.Migrations;

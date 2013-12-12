@@ -1,20 +1,20 @@
-namespace Controle.Ponto.Library.Migrations
+namespace Controle.Ponto.Library.Modelo.Migrations
 {
-    using Controle.Ponto.Library.Entidades;
+    using Controle.Ponto.Library.Modelo.Entidades;
     using System;
     using System.Collections.Generic;
     using System.Data.Entity;
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<Controle.Ponto.Library.Contexto.PontoContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<Controle.Ponto.Library.Modelo.Contexto.PontoContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(Controle.Ponto.Library.Contexto.PontoContext context)
+        protected override void Seed(Controle.Ponto.Library.Modelo.Contexto.PontoContext context)
         {
 
             Usuario userTest = new Usuario() { Id = 1 , Nome = "gabriel.matos" , Matricula = 688 , Senha = "123456" };

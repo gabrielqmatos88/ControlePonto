@@ -1,4 +1,4 @@
-﻿using Controle.Ponto.Library.Entidades;
+﻿using Controle.Ponto.Library.Modelo.Entidades;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Controle.Ponto.Library.Contexto
+namespace Controle.Ponto.Library.Modelo.Contexto
 {
     public class PontoContext :DbContext
     {

@@ -44,17 +44,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Contexto\PontoContext.cs" />
-    <Compile Include="Entidades\DAO\UsuarioDao.cs" />
-    <Compile Include="Entidades\DiaPonto.cs" />
-    <Compile Include="Entidades\Entidade.cs" />
-    <Compile Include="Entidades\Registro.cs" />
-    <Compile Include="Entidades\Usuario.cs" />
-    <Compile Include="Migrations\201312120244576_InicioDataBase.cs" />
-    <Compile Include="Migrations\201312120244576_InicioDataBase.Designer.cs">
+    <Compile Include="Modelo\Contexto\PontoContext.cs" />
+    <Compile Include="Modelo\Entidades\DAO\UsuarioDao.cs" />
+    <Compile Include="Modelo\Entidades\DiaPonto.cs" />
+    <Compile Include="Modelo\Entidades\Entidade.cs" />
+    <Compile Include="Modelo\Entidades\Registro.cs" />
+    <Compile Include="Modelo\Entidades\Usuario.cs" />
+    <Compile Include="Modelo\Migrations\201312120244576_InicioDataBase.cs" />
+    <Compile Include="Modelo\Migrations\201312120244576_InicioDataBase.Designer.cs">
       <DependentUpon>201312120244576_InicioDataBase.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Modelo\Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -62,12 +62,12 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201312120244576_InicioDataBase.resx">
+    <EmbeddedResource Include="Modelo\Migrations\201312120244576_InicioDataBase.resx">
       <DependentUpon>201312120244576_InicioDataBase.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Entidades\BO\" />
+    <Folder Include="Modelo\Entidades\BO\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
