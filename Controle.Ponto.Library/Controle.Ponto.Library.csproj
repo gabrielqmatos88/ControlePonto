@@ -45,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contexto\PontoContext.cs" />
+    <Compile Include="Entidades\DAO\UsuarioDao.cs" />
     <Compile Include="Entidades\DiaPonto.cs" />
     <Compile Include="Entidades\Entidade.cs" />
     <Compile Include="Entidades\Registro.cs" />
@@ -64,6 +65,9 @@
     <EmbeddedResource Include="Migrations\201312120244576_InicioDataBase.resx">
       <DependentUpon>201312120244576_InicioDataBase.cs</DependentUpon>
     </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Entidades\BO\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
