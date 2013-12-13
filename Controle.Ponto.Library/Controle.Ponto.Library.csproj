@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Libs\GestorPonto.cs" />
     <Compile Include="Modelo\Contexto\PontoContext.cs" />
     <Compile Include="Modelo\Entidades\DAO\UsuarioDao.cs" />
     <Compile Include="Modelo\Entidades\DiaPonto.cs" />
